@@ -1,0 +1,69 @@
+[0m[[0m[31merror[0m] [0m[0mjava.lang.NoClassDefFoundError: scala/Product$class[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.time.Days$.<init>(Units.scala:291)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.time.Days$.<clinit>(Units.scala)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.time.Span$.<init>(Span.scala:585)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.time.Span$.<clinit>(Span.scala)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.tools.Runner$.<init>(Runner.scala:779)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.tools.Runner$.<clinit>(Runner.scala)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.tools.Framework.runner(Framework.scala:1073)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.$anonfun$createTestRunners$1(Defaults.scala:1340)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:285)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.immutable.Map$Map1.foreach(Map.scala:179)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.TraversableLike.map(TraversableLike.scala:285)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.TraversableLike.map$(TraversableLike.scala:278)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.AbstractTraversable.map(Traversable.scala:108)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.createTestRunners(Defaults.scala:1334)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.allTestGroupsTask(Defaults.scala:1402)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.$anonfun$testTasks$10(Defaults.scala:1130)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function1.$anonfun$compose$1(Function1.scala:49)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$4.work(Transform.scala:68)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.work(Execute.scala:291)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.FutureTask.run(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.FutureTask.run(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.Thread.run(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ClassNotFoundException: scala.Product$class[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.net.URLClassLoader.findClass(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.ManagedClassLoader.findClass(ManagedClassLoader.java:102)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.ClassLoader.loadClass(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.ClassLoader.loadClass(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.time.Days$.<init>(Units.scala:291)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.time.Days$.<clinit>(Units.scala)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.time.Span$.<init>(Span.scala:585)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.time.Span$.<clinit>(Span.scala)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.tools.Runner$.<init>(Runner.scala:779)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.tools.Runner$.<clinit>(Runner.scala)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.tools.Framework.runner(Framework.scala:1073)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.$anonfun$createTestRunners$1(Defaults.scala:1340)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:285)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.immutable.Map$Map1.foreach(Map.scala:179)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.TraversableLike.map(TraversableLike.scala:285)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.TraversableLike.map$(TraversableLike.scala:278)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.AbstractTraversable.map(Traversable.scala:108)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.createTestRunners(Defaults.scala:1334)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.allTestGroupsTask(Defaults.scala:1402)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.$anonfun$testTasks$10(Defaults.scala:1130)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function1.$anonfun$compose$1(Function1.scala:49)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$4.work(Transform.scala:68)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.work(Execute.scala:291)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.FutureTask.run(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.FutureTask.run(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.Thread.run(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mexecuteTests[0m) java.lang.NoClassDefFoundError: scala/Product$class[0m

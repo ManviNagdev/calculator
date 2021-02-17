@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0mD:\scala\src\main\scala\calculator.scala:65:7: reassignment to val[0m
+[0m[[0m[31merror[0m] [0m[0m    e = e.replaceAll(" ", "")[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

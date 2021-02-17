@@ -1,0 +1,31 @@
+[0m[[0m[33mwarn[0m] [0m[0mD:\scala\src\test\scala\test1.scala:7:11: scala.util.Either[Double,String] and Int are unrelated: they will most likely never compare equal[0m
+[0m[[0m[33mwarn[0m] [0m[0m    assert(Calculator.calculate("1") == 1)[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mD:\scala\src\test\scala\test1.scala:10:11: scala.util.Either[Double,String] and Int are unrelated: they will most likely never compare equal[0m
+[0m[[0m[33mwarn[0m] [0m[0m    assert(Calculator.calculate("1-2-3") == -4)[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mD:\scala\src\test\scala\test1.scala:13:11: scala.util.Either[Double,String] and Double are unrelated: they will most likely never compare equal[0m
+[0m[[0m[33mwarn[0m] [0m[0m    assert(Calculator.calculate("16.8/4/2") == 2.1)[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mD:\scala\src\test\scala\test1.scala:16:11: scala.util.Either[Double,String] and Int are unrelated: they will most likely never compare equal[0m
+[0m[[0m[33mwarn[0m] [0m[0m    assert(Calculator.calculate("1+2+12/4-3*3-2-1") == -6)[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mD:\scala\src\test\scala\test1.scala:19:11: scala.util.Either[Double,String] and Int are unrelated: they will most likely never compare equal[0m
+[0m[[0m[33mwarn[0m] [0m[0m    assert(Calculator.calculate("(10-(2+2)*2)/2") == 1)[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mD:\scala\src\test\scala\test1.scala:22:11: scala.util.Either[Double,String] and Int are unrelated: they will most likely never compare equal[0m
+[0m[[0m[33mwarn[0m] [0m[0m    assert(Calculator.calculate("10-(2+2*2)/2") == 7)[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mD:\scala\src\test\scala\test1.scala:25:11: scala.util.Either[Double,String] and Int are unrelated: they will most likely never compare equal[0m
+[0m[[0m[33mwarn[0m] [0m[0m    assert(Calculator.calculate("((-2+2))*2") == 0)[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mD:\scala\src\test\scala\test1.scala:28:11: scala.util.Either[Double,String] and Double are unrelated: they will most likely never compare equal[0m
+[0m[[0m[33mwarn[0m] [0m[0m    assert(Calculator.calculate("-.32       /.5") == -0.64)[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mD:\scala\src\test\scala\test1.scala:31:11: scala.util.Either[Double,String] and Int are unrelated: they will most likely never compare equal[0m
+[0m[[0m[33mwarn[0m] [0m[0m    assert(Calculator.calculate("-5+-8--11*2") == 9)[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mD:\scala\src\test\scala\test1.scala:34:11: scala.util.Either[Double,String] and String are unrelated: they will most likely never compare equal[0m
+[0m[[0m[33mwarn[0m] [0m[0m    assert(Calculator.calculate("3+-+2") == "invalid expression format")[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m10 warnings found[0m

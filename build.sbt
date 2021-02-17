@@ -1,0 +1,5 @@
+libraryDependencies += "org.tpolecat" %% "atto-core" % "0.7.0"
+libraryDependencies += "org.tpolecat" %% "atto-refined" % "0.7.0"
+// libraryDependencies += "org.scalactic" %% "scalactic" % "3.2.2"
+// libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.2" % "test"
+libraryDependencies += "org.scalatest" %% "scalatest-funsuite" % "3.2.2" % "test"

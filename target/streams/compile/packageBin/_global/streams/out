@@ -1,0 +1,15 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging D:\scala\target\scala-2.12\scala_2.12-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	pl[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\scala\target\scala-2.12\classes\pl[0m
+[0m[[0m[0mdebug[0m] [0m[0m	pl\bszmit[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\scala\target\scala-2.12\classes\pl\bszmit[0m
+[0m[[0m[0mdebug[0m] [0m[0m	pl\bszmit\parsers[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\scala\target\scala-2.12\classes\pl\bszmit\parsers[0m
+[0m[[0m[0mdebug[0m] [0m[0m	pl\bszmit\parsers\TestDrive$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\scala\target\scala-2.12\classes\pl\bszmit\parsers\TestDrive$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	pl\bszmit\parsers\TestDrive$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\scala\target\scala-2.12\classes\pl\bszmit\parsers\TestDrive$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	pl\bszmit\parsers\TestDrive.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\scala\target\scala-2.12\classes\pl\bszmit\parsers\TestDrive.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
