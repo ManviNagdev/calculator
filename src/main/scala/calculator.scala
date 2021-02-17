@@ -79,7 +79,7 @@ object Calculator extends App {
     p1 | p2
   }
 
-  // driver function
+  // driver function. Returns string because I needed it to return "invalid expression format" whenever applicable instead of the answer.
   def calculate(e: String): String = {
     def doneToDouble(pr: ParseResult[Double]): String =
       pr match {
@@ -94,7 +94,9 @@ object Calculator extends App {
         case Fail(remaining, _, failure) => "invalid expression format"
         case Partial(_)                  => "invalid expression format"
       }
-    return doneToDouble(Expr.parse(e.replaceAll("\\s", "")).done)
+    return doneToDouble(
+      Expr.parse(e.replaceAll("\\s", "")).done
+    ) // eliminates stray spaces and calls the parser. Then, it sends the result to a function which extracts the final answer and returns it as a string
   }
 
 }

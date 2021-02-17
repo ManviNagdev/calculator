@@ -3,6 +3,7 @@ import manvi.Calculator
 
 class TestCalculator extends AnyFunSuite {
 
+  // function to convert an answer from int/double/string to string since the driver function returns string.
   def makeAnswer(answer: Any): String = {
     answer match {
       case answer: Double => answer.toString
